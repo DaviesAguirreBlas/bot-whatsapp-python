@@ -4,7 +4,6 @@ from typing import List, Dict, Any
 
 from ..models import Sale
 
-
 class SalesService:
     def __init__(self, db: Session):
         self.db = db
